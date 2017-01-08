@@ -13,7 +13,7 @@
     </div>
 </div>
 <center>
-<img src=./source/img/micro.jpg width=25%>
+<img src=./pages/img/micro.jpg width=25%>
 </center>
 #+END_HTML
 * [[file:pages/1_Lesson.html][Lesson 1 - Getting started]]
