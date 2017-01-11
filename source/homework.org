@@ -114,13 +114,71 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Coming soon
+
+1. Tom has made the following code that creates a custome image. Tom has flashed his code to his Micro:bit.  There were no errors but the image did not show. Can you describe what Tom needs to do in order for him to display the image on his Micro:bit?
+   #+BEGIN_SRC Python
+
+from microbit import *
+
+while True:
+       mystryImage = Image("00900:"
+                           "09090:"
+                           "90909:"
+                           "00900:"
+                           "00900")
+
+display.show(mystryImage)
+
+   #+END_SRC
+2. Charlie has made the following code so that the LEDs in the first column will light up in turn, starting from the first LED, and as the LEDs "running" down the column, their brightness is also expected to get brighter. This pattern should repeat for ever. The following code worked once then an error occurred. Can you explain why and suggest how to fix?
+
+    #+BEGIN_SRC Python
+
+from microbit import *
+
+howBright=0
+
+while True:
+    y=0
+    while y < 5:
+        display.set_pixel(0, y, howBright)
+        y += 1
+        howBright += 1 
+        sleep(150)
+        display.clear()
+
+    #+END_SRC
+3. Ella has made the following code and it works very well. Can you explain what her code does?
+   #+BEGIN_SRC Python
+from microbit import *
+x=0
+howBright=9
+
+while True:
+    y=0
+    while y < 5:
+        display.set_pixel(x, y, howBright)
+        x += 1 
+        sleep(150)
+        display.clear()
+    
+        if x==5:
+    	    x=0
+    	    y += 1
+
+   #+END_SRC
 
 
-** Homework 3
+** Homework 3 - Literacy Task
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Coming soon
+- BBC Micro:bit is the BBC's most ambitious education initiative in 30 years. Conduct some online research and write a 200 words on the following points:
+  1. What exactly is the BBC Micro:bit initiative and how they made it possible?
+  2. What is the BBC expecting to achieve by starting this initiative?
+  3. In your own words, in your own opinion, what impact could the initiative has on school children and why?
+
+- your writting will be assessed on spelling and grammar.
+
 
 
