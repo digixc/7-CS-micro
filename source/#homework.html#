@@ -167,7 +167,7 @@ while True:
 <li>Ella has made the following code and it works very well. Can you explain what her code does?
 
 <ul class="org-ul">
-<li><code>hints:</code> 
+<li><code>hint:</code> 
 <ol class="org-ol">
 <li>The statement <code>while y &lt; 5</code> is to ensure that variable y does not exceed 4, which is the maximum value for the y coordinate. What happens when y does reach 5? &#x2013; the program will go to "while True", then reset y=0.
 </li>
