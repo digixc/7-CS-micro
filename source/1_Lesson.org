@@ -103,10 +103,13 @@
 - /(Image courtesy of Wikipedia)/
 - The machines were highly popular with schools, and were many people's first experience with computers. They could be programmed using a language called BASIC, and had different games and programs that could be run on them. You can read more about it [[https://en.wikipedia.org/wiki/BBC_Micro][here]].
 - Fast-forward 30 years or so, and the BBC have kindly produced the BBC Micro:bit - a computer you can carry, being given to every year 7 in the country to keep (you can take yours home once you've completed this topic). 
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
+
+#+BEGIN_COMMENT
+  ** Try It
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: code
+  :END:
+
 - Let's write our very first program for the Micro:bit right now.
 - Open the Micro:bit site, by opening [[https://www.microbit.co.uk/create-code][this link]] in a new tab.
 - https://www.microbit.co.uk/create-code
@@ -126,10 +129,35 @@
 [[./img/download3.png]]
   8. You'll see 3 files in here, with names like AUTORST.CFG and DETAILS.TXT which will let you know you're in the right place. Right-click in this folder, and choose *Paste* to place your program onto the Microbit. the yellow LED on the back of the unit will flicker while your program transfers, and after a few seconds, your program will run. You can repeat this process whenever you want to put a new program on the Micro:bit.
 - This video tutorial walks you through it...
-#+BEGIN_HTML
+   #+BEGIN_HTML
 <iframe width="420" height="315" src="https://www.youtube.com/embed/4YUFQEeQ95U" frameborder="0" allowfullscreen></iframe>
-#+END_HTML
+  #+END_HTML
+#+END_COMMENT
 
+** Try It
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: code
+  :END:
+
+- Go to your desktop->"S+C and Computing" folder
+- Open the program called "mu"
+- copy and paste the following code to the window to replace all existing content.
+
+#+begin_src python
+# Add your Python code here. E.g.
+from microbit import *
+
+while True:
+    display.scroll('Hello, World!')
+    display.show(Image.HEART)
+    sleep(2000)
+#+end_src
+
+- Click on "flash" to download the code to your Micro:bit
+- Click "ok" to the subsequent popup window
+- You should see your code running on the Micro:bit
+- To save your code as a Python code file, you click on the "save" button.
+- To load an existing Python code for your Micro:bit, click on the "load" button.
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -150,7 +178,9 @@ while True:
 - The =display.scroll()= line asks the Micro:bit to display whatever text is written in quotes inside the brackets on the LED display.
 - =display.show()= makes images appear on the display. A heart is built into Micro:Python, as are rather a lot of [[http://microbit-micropython.readthedocs.org/en/latest/tutorials/images.html][others]] too.
 - =sleep()= tells the Micro:bit to wait a number of milliseconds (there are 1000 in 1 second) before carrying out the next instruction.
-** Save It
+
+#+BEGIN_COMMENT
+   ** Save It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: save
 :END:
@@ -165,6 +195,8 @@ while True:
 #+BEGIN_HTML
 <iframe width="420" height="315" src="https://www.youtube.com/embed/GTidFC-RyPE" frameborder="0" allowfullscreen></iframe>
 #+END_HTML
+#+END_COMMENT
+
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
