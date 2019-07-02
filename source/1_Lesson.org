@@ -139,8 +139,8 @@
   :HTML_CONTAINER_CLASS: code
   :END:
 
-- Go to your desktop->"S+C and Computing" folder
-- Open the program called "mu"
+- Go to your desktop
+- Open the program called "Mu Editor"
 - copy and paste the following code to the window to replace all existing content.
 
 #+begin_src python
