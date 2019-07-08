@@ -188,6 +188,7 @@ while True:
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- *Silver:* Write a program that makes a pattern that scrolls down vertically rather than horizontally.
-- *Gold:* Make your pattern fill the first two columns rather than just one.
-- *Platinum:* Make your pattern fill all the columns, *AND* have the brightness increase each time a new LED is turned on. When the brightness reaches 9, it should start again at 1. 
+After following the above istructions or video tutorial, try to write programms for the following tasks:
+- *Silver:* Write a program that uses *if statement and variables* to make a pattern that scrolls down vertically rather than horizontally.
+- *Gold:* Write a program that uses *if statement and variables* to make your pattern fill the first two columns rather than just one.
+- *Platinum:* Write a program that uses *if statement and variables* to make your pattern fill all the columns, *AND* have the brightness increase each time a new LED is turned on. When the brightness reaches 9, it should start again at 1. 
